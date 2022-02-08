@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Usage
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <gcloud project shortname>"
+  exit 1
+fi
+
+set -e
+
+# First argument is the machine name
+env=$1;
+
+# Switch gcloud to use the hub project for this machine
+if ! grep -q ${env} ${HOME}/.config/gcloud/configurations/config_default; then
+  set -x
+  gcloud config set project $(gcloud projects list --filter=name=${env} | tail -1 | awk '{print $1}');
+  set +x
+fi
+

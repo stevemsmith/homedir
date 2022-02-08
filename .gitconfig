@@ -1,0 +1,10 @@
+[github]i
+    name = Steve Smith
+    email = steve.smith@logrhythm.com
+[credential]
+    helper = osxkeychain
+[user]
+	name = Steve Smith
+	email = steve.smith@logrhythm.com
+[pull]
+	rebase = false

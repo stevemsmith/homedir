@@ -1,0 +1,41 @@
+set nofoldenable
+
+" Disable auto-close
+let g:AutoPairs = {}
+
+" Disable automatic curly quotes
+let g:textobj#quote#educate = 0
+
+" Save lines/files with correct line endings
+set fileformat=unix
+
+" Disable automatic clipboard integration
+set clipboard-=unnamed
+
+" Provide special way to do clipboard integration
+set pastetoggle=<F10>
+inoremap <C-v> <F10><C-r>+<F10>
+vnoremap <C-c> "+y"
+
+" No spell check
+set nospell
+
+set isk-=-
+set isk-=#
+set isk-=.
+set isk-=_
+
+set nofoldenable
+
+autocmd BufEnter * :syntax sync fromstart
+
+let g:AutoPairs = {}
+
+set shiftwidth=2
+set softtabstop=2
+
+" Disable automatic curly quotes
+let g:textobj#quote#educate = 0
+
+" Turn off python-mode
+UnBundle 'klen/python-mode'
