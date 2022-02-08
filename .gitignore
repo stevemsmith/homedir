@@ -3,7 +3,6 @@
 !.bash_profile
 !.bashrc
 !.gitignore
-!.gitconfig
 !.tmux.conf
 !.vimrc.before.local
 !.vimrc.bundles.local
