@@ -6,4 +6,5 @@
 !.tmux.conf
 !.vimrc.local
 !.vimrc.local
-!com.googlecode.iterm2.plist
+!.iterm_config
+!.iterm_config/*
