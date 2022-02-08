@@ -4,8 +4,6 @@
 !.bashrc
 !.gitignore
 !.tmux.conf
-!.vimrc.before.local
-!.vimrc.bundles.local
 !.vimrc.local
-!/bin/
-!/bin/*
+!.vimrc.local
+!com.googlecode.iterm2.plist
