@@ -1,5 +1,6 @@
 *
 .DS_Store
+bin
 !.bash_profile
 !.bashrc
 !.gitignore
