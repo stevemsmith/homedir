@@ -7,7 +7,7 @@ echo "install homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo "install software"
-packages="tmux vim gnupg2 pinentry-mac gopass git ansible"
+packages="tmux vim gnupg2 pinentry-mac gopass git ansible gnu-tar"
 for package in ${packages}; do
   brew install ${package}
 done
