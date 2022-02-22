@@ -1,6 +1,5 @@
 *
 .DS_Store
-bin
 !.bash_profile
 !.bashrc
 !.gitignore
@@ -9,3 +8,4 @@ bin
 !.vimrc.local
 !.iterm_config
 !.iterm_config/*
+!bin
